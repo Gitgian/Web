@@ -121,3 +121,45 @@ body {
   .process-card p {
     color: #000000;
   }  
+
+  .arrow-container {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+  }
+  
+  .arrow-link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .arrow {
+    display: inline-block;
+    border: solid #fff;
+    border-width: 2px 2px 0 0;
+    padding: 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  }
+  
+  .arrow-left {
+    left: 20px;
+    transform: rotate(-180deg);
+  }
+  
+  .arrow-right {
+    right: 20px;
+  }
+  
+  
